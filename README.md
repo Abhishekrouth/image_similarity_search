@@ -14,12 +14,13 @@ in embeddings.json.
        
         1. Checking the uploaded file
         2. Read and pre process image
-        3. Encode images
+        3. Encode images (batch_size=16)
         4. Perform FAISS search
         5. Return the response in JSON format
 
 * Dataset: Contains different type of images of Scorpio and Audi.
 * Device: To run the model on cpu
+* batch: Batch size to process 16 images together as a batch
 
 ## Technologies used:
 
@@ -32,8 +33,12 @@ in embeddings.json.
 
 ### Sample Output:
 
-1. ![alt text](images/output1.png)
+1. Streamlit: 
 
-2. ![alt text](images/output2.png)
+![alt text](images/output_streamlit.jpg)
 
-3. ![alt text](images/output3.png)
+2. ![alt text](images/output1.png)
+
+3. ![alt text](images/output2.png)
+
+4. ![alt text](images/output3.png)
