@@ -12,7 +12,7 @@ device = "cpu"
 model, preprocess = clip.load("ViT-B/32", device=device)
 
 dataset = './dataset/'
-embedding_file = 'embeddings.json'
+embedding_file = 'embedding.json'
 batch = 16
 def generate_embeddings():
     embeddings = {}

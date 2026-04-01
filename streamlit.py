@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from PIL import Image
 
-st.title('Image Similarity Search App')
+st.title('Image Similarity Search App: Flask & Streamlit')
 
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
